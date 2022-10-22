@@ -11,7 +11,7 @@
 9. 배열 2배 - `array2x.js`
 10. 배열 중앙값 - `median.js`
 11. 배열 최빈값 - `mode.js` 
-##### `참고`
-[https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0](https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0) - 최빈값구하기
-
 12. 배열 홀수만 출력(짝수는 싫어요) - `hateEven.js`
+
+### `참고`
+[https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0](https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0) - 11. 배열 최빈값
