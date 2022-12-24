@@ -1,0 +1,23 @@
+{
+  "name": "codingtest",
+  "version": "1.0.0",
+  "description": "1. 더하기 - `plus.js`\r 2. 빼기 - `minus.js`\r 3. 곱하기 - `multiply.js`\r 4. 나누기(몫 구하기) - `quotient.js`\r 5. 나누기(나머지 구하기) - `persent.js`\r 6. 나누기(몫 * 1000 을 정수로 출력) - `divide.js`\r 7. 숫자 비교 - `compare.js`\r 8. 분수 덧셈 - `fraction.js`\r 9. 배열 2배 - `array2x.js`\r 10. 배열 중앙값 - `median.js`\r 11. 배열 최빈값 - `mode.js` \r 12. 배열 홀수만 출력(짝수는 싫어요) - `hateEven.js`",
+  "main": "array2x.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wuyuh-sun/codingtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wuyuh-sun/codingtest/issues"
+  },
+  "homepage": "https://github.com/Wuyuh-sun/codingtest#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
