@@ -17,7 +17,9 @@
 
 ## 참고
 <style>
-ol{list-style-type: decimal;}
+  ol{
+    list-style-type: decimal-leading-zero;
+  }
 </style>
 - 11. 배열 최빈값<br/>
   [https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0](https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0)
