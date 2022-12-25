@@ -21,6 +21,8 @@
     - 13. 피자 나눠 먹기(1) - `splitPizza1.js`
     - 14. 피자 나눠 먹기(2)[최대 공약수, 최소 공배수] - `splitPizza2.js`
 
+<hr/>
+
 - 2. 참고
     - 11. 배열 최빈값<br/>
       [https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0](https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0)
