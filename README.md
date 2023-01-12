@@ -6,6 +6,11 @@
 # 코딩 테스트
 
 - 1. 문서
+    ```
+    - 0.1. 코딩테스트데모1 - `codingDemo1.js`
+    - 0.2. 코딩테스트데모2 - `codingDemo2.js`
+    - 0.3. 코딩테스트데모3 - `codingDemo3.js`
+    ```
     - 1. 더하기 - `plus.js`
     - 2. 빼기 - `minus.js`
     - 3. 곱하기 - `multiply.js`
@@ -20,8 +25,14 @@
     - 12. 배열 홀수만 출력(짝수는 싫어요) - `hateEven.js`
     - 13. 피자 나눠 먹기(1) - `splitPizza1.js`
     - 14. 피자 나눠 먹기(2)[최대 공약수, 최소 공배수] - `splitPizza2.js`
+    - 15. 피자 나눠 먹기(3) - `splitPizza3.js`
+    - 16. 배열의 평균값 - `arrAverage.js`
+    - 17. 옷가게 할인 받기 - `clothesSales.js`
+    - 18. 아이스 아메리카노 - `iceAmericano.js`
+    - 19. 나이 출력 - `ageOutput.js`
+    - 20. 배열 뒤집기 - `arrFlip.js`
 
-<hr/>
+----------------------------------
 
 - 2. 참고
     - 11. 배열 최빈값<br/>
@@ -29,4 +40,9 @@
 
     - 14. 유클리드 호제법 - 최대 공약수, 최소 공배수<br/>
       [https://myjamong.tistory.com/138](https://myjamong.tistory.com/138)
+
+    - 18. ~~연산자<br/>
+      [https://backback.tistory.com/363](https://backback.tistory.com/363)
+    
+    
 
