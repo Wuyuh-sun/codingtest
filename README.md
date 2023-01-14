@@ -7,10 +7,25 @@
 
 - 1. 문서
     ```
+    # 코딩 테스트 데모
     - 0.1. 코딩테스트데모1 - `codingDemo1.js`
     - 0.2. 코딩테스트데모2 - `codingDemo2.js`
     - 0.3. 코딩테스트데모3 - `codingDemo3.js`
     ```
+    |코딩테스트 고득점 kit|제목|파일명|
+    |---|---|---|
+    |해시|폰켓몬|Hash/phonecatmon.js|
+    |해시|완주하지 못한 선수|Hash/noFinishName.js|
+    |스택/큐|ㅁㄴㅇ|ㅁㄴㅇ|
+    |힙(Heap)|ㅁㄴㅇ|ㅁㄴㅇ|
+    |정렬|ㅁㄴㅇ|ㅁㄴㅇ|
+    |완전탐색|ㅁㄴㅇ|ㅁㄴㅇ|
+    |탐욕법(Greedy)|ㅁㄴㅇ|ㅁㄴㅇ|
+    |동적계획법(Dynamic Programming)|ㅁㄴㅇ|ㅁㄴㅇ|
+    |깊이/너비 우선 탐색(DFS/BFS)|ㅁㄴㅇ|ㅁㄴㅇ|
+    |이분탐색|ㅁㄴㅇ|ㅁㄴㅇ|
+    |그래프|ㅁㄴㅇ|ㅁㄴㅇ|
+
     - 1. 더하기 - `plus.js`
     - 2. 빼기 - `minus.js`
     - 3. 곱하기 - `multiply.js`
@@ -35,6 +50,12 @@
 ----------------------------------
 
 - 2. 참고
+    ```
+    해시
+
+    폰켓몬 - https://mofari.tistory.com/7
+    ```
+
     - 11. 배열 최빈값<br/>
       [https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0](https://velog.io/@ge-um/%EC%B5%9C%EB%B9%88%EA%B0%92-%EA%B5%AC%ED%95%98%EA%B8%B0)
 
