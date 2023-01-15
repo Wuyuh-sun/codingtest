@@ -19,13 +19,57 @@ clothes의 각 행은 [의상의 이름, 의상의 종류]로 이루어져 있�
 clothes의 모든 원소는 문자열로 이루어져 있습니다.
 모든 문자열의 길이는 1 이상 20 이하인 자연수이고 알파벳 소문자 또는 '_' 로만 이루어져 있습니다.
 스파이는 하루에 최소 한 개의 의상은 입습니다.
- * @param {Array} nums 배열
+ * @param {Array} clothes 배열
  * @returns
  */
 function camouflage(clothes) {
-  var answer = 0;
-    return answer;
+  var answer = 1;
+
+  var obj = {};
+
+  for (let i = 0; i < clothes.length; i++) {
+    obj[clothes[i][1]] = (obj[clothes[i][1]] || 1) + 1;
+    console.log(obj);
+  }
+
+  for(let key in obj){
+    answer *= obj[key];
+  }
+
+  return answer -1;
 }
-console.log(camouflage([3, 1, 2, 3])); // 2
-console.log(camouflage([3, 3, 3, 2, 2, 4])); // 3
-console.log(camouflage([3, 3, 3, 2, 2, 2])); // 2
+console.log(
+  camouflage([
+    ["yellow_hat", "headgear"],
+    ["blue_sunglasses", "eyewear"],
+    ["green_turban", "headgear"],
+  ])
+); // 5
+console.log(
+  camouflage([
+    ["crow_mask", "face"],
+    ["blue_sunglasses", "face"],
+    ["smoky_makeup", "face"],
+  ])
+); // 3
+
+// var obj = {};
+
+// var answer = 1;
+
+// var clothes = [
+//   ["yellow_hat", "headgear"],
+//   ["blue_sunglasses", "eyewear"],
+//   ["green_turban", "headgear"],
+// ];
+
+// obj[clothes[0][1]] = (obj[clothes[0][1]] || 1) + 1;
+// obj[clothes[1][1]] = (obj[clothes[1][1]] || 1) + 1;
+// obj[clothes[2][1]] = (obj[clothes[2][1]] || 1) + 1;
+
+// for (let key in obj) {
+//   answer *= obj[key];
+// }
+
+// console.log(answer);
+
