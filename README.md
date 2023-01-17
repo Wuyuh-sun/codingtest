@@ -21,7 +21,7 @@
     |힙(Heap)|...|...|
     |정렬|...|...|
     |완전탐색|...|...|
-    |탐욕법(Greedy)|...|...|
+    |탐욕법(Greedy)|체육복|Greedy/gymSuit.js|
     |동적계획법(Dynamic Programming)|...|...|
     |깊이/너비 우선 탐색(DFS/BFS)|...|...|
     |이분탐색|...|...|
@@ -30,6 +30,8 @@
     |스킬 체크 테스트|제목|파일명|
     |---|---|---|
     |Level.1|문자열 숫자로만 구성된지 테스트|SkillCheckTest/lv1_1.js|
+    |Level.2|정수 자릿수 내림차순 정렬|SkillCheckTest/lv1_2.js|
+    |Level.1|정수 자릿수 내림차순 정렬|SkillCheckTest/lv1_2.js|
     |Level.1|정수 자릿수 내림차순 정렬|SkillCheckTest/lv1_2.js|
 
     - 1. 더하기 - `Level0/Day1/plus.js`
@@ -62,10 +64,10 @@
     - 23. 짝수 홀수 개수 - `Level0/Day6/evenOdd_cnt.js`
     - 24. 문자 반복 출력하기 - `Level0/Day6/stringRepeat.js`
 
-    - 25. 특정 문자 제거하기 - `Level0/Day8/rmSpecialString.js`
-    - 26. 각도기 - `Level0/Day8/protractor.js`
-    - 27. 양꼬치 - `Level0/Day8/lambskewers.js`
-    - 28. 짝수의 합 - `Level0/Day8/evenSum.js`
+    - 25. 특정 문자 제거하기 - `Level0/Day7/rmSpecialString.js`
+    - 26. 각도기 - `Level0/Day7/protractor.js`
+    - 27. 양꼬치 - `Level0/Day7/lambskewers.js`
+    - 28. 짝수의 합 - `Level0/Day7/evenSum.js`
 
 ----------------------------------
 

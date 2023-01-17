@@ -27,8 +27,8 @@ function furthestNode(n, vertex) {
       item[1],
       vertexMap.get(item[1]) ? [...vertexMap.get(item[1]), item[0]] : [item[0]]
     );
-    console.log('...vertexMap',...vertexMap);
-    console.log('vertexMap',vertexMap);
+    console.log("...vertexMap", ...vertexMap);
+    console.log("vertexMap", vertexMap);
   });
 }
 
@@ -49,4 +49,3 @@ console.log(
 // newMap.set(5,[1,2,3,4,5,6])
 
 // console.log('newMap',newMap.values())
-
