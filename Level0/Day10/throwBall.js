@@ -9,17 +9,27 @@
 0 < k < 1,000
 numbers의 첫 번째와 마지막 번호는 실제로 바로 옆에 있습니다.
 numbers는 1부터 시작하며 번호는 순서대로 올라갑니다.
- * @param {Array} numbers
+ * @param {Number[]} numbers
  * @param {Number} k
  * @returns 
  */
 function throwBall(numbers, k) {
   var answer = 0;
 
-  var stack = 0;
-  for(let i = 0; i < k; i++){
-    stack = numbers[i+2]
+  var play = (numbers, k) => {
+    if(k !== 0){
+      answer = numbers[0];
+      numbers.push(numbers[0]);
+      numbers.push(numbers[1]);
+      numbers.shift();
+      numbers.shift();
+      k--;
+      play(numbers, k);
+    } else{
+      return answer;
+    }
   }
+  play(numbers, k)
 
   return answer;
 }
