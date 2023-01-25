@@ -17,23 +17,24 @@
 function nearNum(array, n) {
   var answer = 0;
   array.push(n);
-  array.sort((a, b) => a - b);
-
-  array.map((item, i) => {
-    if (item === n) {
-      if (array[i - 1] === undefined || array[i + 1] === undefined) {
-        answer = array[i - 1] ?? array[i + 1];
-      } else if (
-        Math.abs(array[i] - array[i - 1]) === Math.abs(array[i] - array[i + 1])
-      ) {
-        answer = array[i - 1];
-      } else {
-        Math.abs(array[i] - array[i - 1]) < Math.abs(array[i] - array[i + 1])
-          ? (answer = array[i - 1])
-          : (answer = array[i + 1]);
+  array
+    .sort((a, b) => a - b)
+    .map((item, i) => {
+      if (item === n) {
+        if (array[i - 1] === undefined || array[i + 1] === undefined) {
+          answer = array[i - 1] ?? array[i + 1];
+        } else if (
+          Math.abs(array[i] - array[i - 1]) ===
+          Math.abs(array[i] - array[i + 1])
+        ) {
+          answer = array[i - 1];
+        } else {
+          Math.abs(array[i] - array[i - 1]) < Math.abs(array[i] - array[i + 1])
+            ? (answer = array[i - 1])
+            : (answer = array[i + 1]);
+        }
       }
-    }
-  });
+    });
 
   return answer;
 }
